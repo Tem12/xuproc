@@ -4,12 +4,12 @@ Purpose of this Python script is to prepend classname to method name for each te
 
 ## Installation
 1. Clone this repository to your local machine.
-    ```bash
+    ```
     git clone https://github.com/Tem12/xuproc.git
     ```
 
 2. Create python venv and install dependencies.
-    ```bash
+    ```
     python -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
