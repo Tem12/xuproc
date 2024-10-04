@@ -70,7 +70,7 @@ def process_file(filepath):
 
             # Prepend method name with classname
             testcase.attrib["name"] = (
-                f"{testcase.attrib["classname"]}.{testcase.attrib["name"]}"
+                f"{testcase.attrib['classname']}.{testcase.attrib['name']}"
             )
     except ET.ParseError as e:
         print(f"Cannot parse XML file ${e}", file=sys.stderr)
